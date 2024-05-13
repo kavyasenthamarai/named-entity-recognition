@@ -30,8 +30,8 @@ Plot the Stock prediction plot
 ## PROGRAM
 
 ~~~py
-Developed by: RAMA E.K. LEKSHMI
-Reg No:212222240082
+Developed by: KAVYA K
+Reg No:212222230065
 ~~~
 
 ### Importing Libraries
@@ -147,8 +147,8 @@ history = model.fit(
     batch_size=32, 
     epochs=3,
 )
-print("RAMA E.K. LEKSHMI")
-print("212222240082")
+print("KAVYA K")
+print("212222230065")
 metrics = pd.DataFrame(model.history.history)
 metrics.head()
 metrics[['accuracy','val_accuracy']].plot()
@@ -158,8 +158,8 @@ metrics[['loss','val_loss']].plot()
 ### Prediction Sequence
 
 ```py
-print("RAMA E.K. LEKSHMI")
-print("212222240082")
+print("KAVYA K")
+print("212222230065")
 i = 79
 p = model.predict(np.array([X_test[i]]))
 p = np.argmax(p, axis=-1)
